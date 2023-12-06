@@ -12,6 +12,6 @@ func main() {
 		panic(err)
 	}
 	for i := 1; i < a; i++ {
-		g = math.Pow(float64(i), float64(2))
+		g = math.Pow(float64(i), 2.0)
 	}
 }
